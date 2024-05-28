@@ -1,0 +1,64 @@
+@import 'config';
+@import 'buttons';
+@import 'mobile';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $very-light-gray;
+    font-family: $font-stack;
+}
+
+img {
+    width: 70px;
+    margin-top: 17px;
+    padding-left: 30px;
+    color: $bright-orange;
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: $very-light-gray;
+    padding: 10px 30px;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: $p-size;
+    padding: 0px 0px 0px 30px;
+    color: $very-light-gray;
+    font-weight: 100;
+}
+
+
+.flex-container {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 100px;
+    border: 1px solid white;
+    width: 60vw;
+    height: 78vh;
+
+
+    .column-1 {
+        background-color: $bright-orange;
+        min-width: 20vw;
+    }
+
+    .column-2 {
+        background-color: $dark-cyan;
+        min-width: 20vw;
+    }
+
+    .column-3 {
+        background-color: $very-dark-cyan;
+        min-width: 20vw;
+    }
+   
+}
+
+
